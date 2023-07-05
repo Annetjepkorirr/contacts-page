@@ -1,0 +1,38 @@
+@media screen and (min-width: 768px) {
+    .locate,
+    .numbers,
+    .mails {
+        width: 170px;
+    }
+    
+    .contac {
+        flex-direction: row;
+        gap: 10%;
+        margin-left: 350px;
+        margin-top: 5px;
+    }
+
+    #name,
+    #address,
+    .message1,
+    .message2 {
+        width: 200px;
+        padding: 20px 50px;
+    }
+
+    .details {
+        width: 600px;
+        margin-left: 450px;
+        margin-top: -25px;
+    }
+
+    #phone {
+        margin-left: 600px;
+    }
+
+    .bookings,
+    .quiz {
+        flex-direction: row;
+        gap: 50%;
+    }
+}
